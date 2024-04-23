@@ -1,0 +1,52 @@
+.container-update-create{
+    height: 70vh;
+    width: 100vh;
+    border:1px solid black;
+    background-color: white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.update-inputs{
+display: flex;
+flex-direction: column;
+margin-left: 20px;
+}
+.update-para{
+height: 150px;
+width: 90%;
+}
+.task-update-para{
+height: 30px;
+width: 90%;
+}
+.update-buttons{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 15px;
+    right: 30px;
+    gap: 10px;
+}
+button:hover{
+    cursor: pointer;
+      background-color: green;
+}
+.update-close-button{
+   display: flex;
+   margin-left: 510px;
+   margin-top: -270px;
+   font-size: 25px;
+}
+.update-head{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.update-task{
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+    border-radius: 10%;
+    padding: 10px 10px;
+}

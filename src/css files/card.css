@@ -1,1 +1,51 @@
+.card-data{
+    height: 30vh;
+    width: 40vh;
+    float: left;
+    padding: 10px;
+    margin: 60px;
+    border-left:1px solid black ;
+    border-bottom:1px solid black ;
+    border-right:1px solid black ;
+    overflow: auto;
+   
+}
+.name-desc{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
 
+.buttons-2{
+    display: flex;
+    margin-left: 130px;
+   margin-top: 50px;
+   gap: 5px;
+}
+@media screen and (max-width:950px){
+      .card-data{
+        height: 15vh;
+        width: 20vh;
+      }
+      .buttons-2{
+        display: flex;
+        margin-left: 5px;
+        margin-top: -1px;
+      }
+      .name-desc{
+        display: flex;
+        
+        gap: -10px;
+      }
+}
+@media screen and (max-width:1024px){
+    .card-data{
+        height: 16vh;
+        width: 20vh;
+    }
+    .buttons-2{
+        display: flex;
+        margin-top: 30px;
+        margin-left: 120px;
+    }
+} 
